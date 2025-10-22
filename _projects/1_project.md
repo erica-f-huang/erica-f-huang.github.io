@@ -1,12 +1,20 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Array Lists
+description: This project implements an array list ADT in c++
+img: assets/img/c++.svg
 importance: 1
 category: work
 related_publications: true
 ---
+
+[Click here to view the project in GitHub](https://github.com/erica-f-huang/cs15-arraylists.git)
+
+
+
+
+<!-- 
+
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
@@ -78,4 +86,7 @@ Here's the code for the last row of images above:
 </div>
 ```
 
-{% endraw %}
+{% endraw %} 
+
+
+-->
