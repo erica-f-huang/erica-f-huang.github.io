@@ -10,10 +10,7 @@ related_publications: true
 
 [Click here to view the project in GitHub](https://github.com/erica-f-huang/cs15-arraylists.git)
 
-
-
-
-<!-- 
+<!--
 
 
 Every project has a beautiful feature showcase page.
@@ -86,7 +83,7 @@ Here's the code for the last row of images above:
 </div>
 ```
 
-{% endraw %} 
+{% endraw %}
 
 
 -->

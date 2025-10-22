@@ -192,7 +192,7 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
-  - _pages/blog.md          #start of me removing nav bar pages
+  - _pages/blog.md #start of me removing nav bar pages
   - _pages/publications.md
   - _pages/news.md
   - _pages/teaching.md
