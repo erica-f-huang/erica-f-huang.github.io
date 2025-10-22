@@ -1,14 +1,7 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - erica-f-huang
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - erica-f-huang/erica-f-huang.github.io
