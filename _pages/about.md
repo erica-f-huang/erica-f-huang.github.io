@@ -6,7 +6,7 @@ subtitle: Computer Science major | Embedded Systems minor | Tufts University 202
 
 profile:
   align: right
-  image: headshot.jpg
+  image: headshot.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Email: erica.f.huang@gmail.com</p>
