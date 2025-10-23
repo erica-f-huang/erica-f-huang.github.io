@@ -1,14 +1,18 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: Chess
+description: This project plays out a 2 player game of chess (uses Java)
+img: assets/img/java.png
 importance: 2
 category: work
 giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
+[Click here to view the project in GitHub](https://github.com/erica-f-huang/cs121-chess.git)
+
+
+<!--
+ Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
 Make your photos 1/3, 2/3, or full width.
 
@@ -78,4 +82,5 @@ Here's the code for the last row of images above:
 </div>
 ```
 
-{% endraw %}
+{% endraw %} 
+-->

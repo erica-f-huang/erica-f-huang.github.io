@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Array Lists
-description: This project implements an array list ADT in c++
+description: This project implements an array list ADT in C++
 img: assets/img/c++.svg
 importance: 1
 category: work
