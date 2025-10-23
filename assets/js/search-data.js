@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-hobbies",
+  },{id: "nav-hri-lab",
+          title: "HRI Lab",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/HRILab/";
+          },
+        },{id: "nav-hobbies",
           title: "hobbies",
           description: "",
           section: "Navigation",
@@ -473,7 +480,7 @@ ninja.data = [{
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/www.linkedin.com/in/erica-huang-500743263", "_blank");
+          window.open("https://www.linkedin.com/in/erica-huang-500743263", "_blank");
         },
       },{
       id: 'light-theme',
