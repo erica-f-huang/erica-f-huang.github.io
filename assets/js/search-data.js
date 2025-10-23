@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "My favorite coding projects",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -416,12 +416,7 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-array-lists",
-          title: 'Array Lists',
-          description: "This project implements an array list ADT in c++",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
+          section: "News",},{id: "projects-project-2",
           title: 'project 2',
           description: "a project with a background image and giscus comments",
           section: "Projects",handler: () => {
@@ -461,6 +456,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-array-lists",
+          title: 'Array Lists',
+          description: "This project implements an array list ADT in c++",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/arraylists/";
             },},{
         id: 'social-email',
         title: 'email',
