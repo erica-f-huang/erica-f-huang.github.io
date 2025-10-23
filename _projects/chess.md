@@ -10,7 +10,6 @@ giscus_comments: true
 
 [Click here to view the project in GitHub](https://github.com/erica-f-huang/cs121-chess.git)
 
-
 <!--
  Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
@@ -82,5 +81,5 @@ Here's the code for the last row of images above:
 </div>
 ```
 
-{% endraw %} 
+{% endraw %}
 -->
