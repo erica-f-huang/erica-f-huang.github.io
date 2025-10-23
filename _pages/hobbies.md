@@ -5,5 +5,4 @@ title: hobbies
 nav: true
 ---
 
-
 hello here are my hobbies

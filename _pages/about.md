@@ -17,23 +17,21 @@ profile:
 social: true # includes social icons at the bottom of the page
 
 #announcements:
-  #enabled: true # includes a list of news items
-  #scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  #limit: 5 # leave blank to include all the news in the `_news` folder
+#enabled: true # includes a list of news items
+#scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+#limit: 5 # leave blank to include all the news in the `_news` folder
 
 #latest_posts:
-  #enabled: true
-  #scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  #limit: 3 # leave blank to include all the blog posts
+#enabled: true
+#scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+#limit: 3 # leave blank to include all the blog posts
 ---
 
-**NOTE: This website is still in the process of completion. I hope you enjoy what is here!
+\*\*NOTE: This website is still in the process of completion. I hope you enjoy what is here!
 
 My name is Erica Huang, and I am currently a junior at Tufts University (during the summer of 2026 I will be transitioning into my senior year). I am majoring in Computer Science within the School of Engineering, and minoring in Embedded Systems. I am passionate about all things STEM, including robotics, artificial intelligence, human-robot interaction, systems design, and the ethical applications of technology. [See my resume HERE](/cv/) for more information.
 
 When I'm not programming or tinkering around with devices, you can find me on the basketball court, reading in my hammock, on the slopes snowboarding, finding ramen places around boston, or casually racing my dad in our daily [Slitherlink](https://www.brainbashers.com/slitherlink.asp) matchups. If you want to learn more about my hobbies and what makes me me besides my academic passions, follow [HERE](/hobbies/).
-
-
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
