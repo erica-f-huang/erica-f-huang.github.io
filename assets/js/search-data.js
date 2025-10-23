@@ -416,12 +416,7 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
+          section: "News",},{id: "projects-project-3-with-very-long-name",
           title: 'project 3 with very long name',
           description: "a project that redirects to another website",
           section: "Projects",handler: () => {
@@ -458,9 +453,14 @@ ninja.data = [{
               window.location.href = "/projects/9_project/";
             },},{id: "projects-array-lists",
           title: 'Array Lists',
-          description: "This project implements an array list ADT in c++",
+          description: "This project implements an array list ADT in C++",
           section: "Projects",handler: () => {
               window.location.href = "/projects/arraylists/";
+            },},{id: "projects-chess",
+          title: 'Chess',
+          description: "This project plays out a 2 player game of chess (uses Java)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/chess/";
             },},{
         id: 'social-email',
         title: 'email',
