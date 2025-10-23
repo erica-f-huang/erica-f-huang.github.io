@@ -9,7 +9,7 @@ display_categories: [work, fun]
 horizontal: false
 ---
 
-**NOTE: work in progress
+\*\*NOTE: work in progress
 
 <!-- pages/projects.md -->
 <div class="projects">
