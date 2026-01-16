@@ -25,6 +25,10 @@ ul li a:hover {
   background-color: #8867ec;
 }
 
+ul li:first-child {
+  margin-left: auto; /* forces items to the right */
+}
+
 /* flex container contains nav bar links (each is a flex item) */
 /* .flex-container {
   display: flex;
