@@ -10,6 +10,7 @@ ul {
   padding: 0;
   background-color: #e388ff;
   display: flex;
+  justify-content: flex-end;
 }
 
 ul li a {
@@ -24,7 +25,8 @@ ul li a:hover {
 }
 
 /* flex container contains nav bar links (each is a flex item) */
-.flex-container {
+/* .flex-container {
   display: flex;
-  justify-content: flex-end; /* Aligns items to the right */
-}
+  justify-content: flex-end; 
+} 
+*/
