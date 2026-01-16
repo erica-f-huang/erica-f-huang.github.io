@@ -22,3 +22,9 @@ ul li a {
 ul li a:hover {
   background-color: #8867ec;
 }
+
+/* flex container contains nav bar links (each is a flex item) */
+.flex-container {
+  display: flex;
+  justify-content: flex-end; /* Aligns items to the right */
+}
