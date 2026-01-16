@@ -10,7 +10,7 @@ ul {
   padding: 0;
   background-color: #e388ff;
   display: flex;
-  justify-content: flex-end; 
+  justify-content: center; 
   width: 100%;
 }
 
@@ -25,9 +25,9 @@ ul li a:hover {
   background-color: #8867ec;
 }
 
-ul li:first-child {
-  margin-left: auto; /* forces items to the right */
-}
+/* ul li:first-child {
+  margin-left: auto;  forces items to the right 
+} */
 
 /* flex container contains nav bar links (each is a flex item) */
 /* .flex-container {
