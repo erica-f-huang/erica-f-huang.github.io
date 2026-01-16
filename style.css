@@ -10,6 +10,7 @@ ul {
   padding: 0;
   background-color: #e388ff;
   display: flex;
+  justify-content: flex-end; 
   width: 100%;
 }
 
