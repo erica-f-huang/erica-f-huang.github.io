@@ -25,6 +25,12 @@ ul li a:hover {
   background-color: #8867ec;
 }
 
+/* social media icons */
+ion-icon {
+  font-size: 64px;
+  color: black;
+}
+
 /* ul li:first-child {
   margin-left: auto;  forces items to the right 
 } */
