@@ -1,34 +1,63 @@
 /* font format */
 body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Gill Sans", Helvetica, Arial, sans-serif;
+    font-size: 23px;
+}
+
+h1 {
+  font-size: 35px
 }
 
 /* format for nav bar */
-ul {
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: #e388ff;
+  background-color: #975fff;
   display: flex;
   justify-content: center; 
   width: 100%;
 }
 
-ul li a {
+nav ul li a {
   display: block;
   color: black;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-ul li a:hover {
-  background-color: #8867ec;
+nav ul li a:hover {
+  background-color: #646cf8;
 }
 
 /* social media icons */
 ion-icon {
   font-size: 64px;
   color: black;
+}
+
+footer ul {
+  /* Pushes the footer to the bottom, below all other content */
+  margin-top: auto; 
+
+  /* Optional: Add some padding and background for visibility */
+  padding: 3px;
+  background-color: #e6d0ff;
+  width: 100%;
+  gap: 20px;
+}
+
+/* headshot */
+.headshot {
+    width: 20px;
+    height: auto;
+    position: absolute; /* Positions the element out of the normal flow */
+    top: 100px;            /* Aligns the top edge with the top of the container */
+    right: 0;          /* Aligns the right edge with the right of the container */
+    margin: 20px;      /* Optional: adds some space from the very corner */
+    width: 100px;      /* Optional: set desired width */
+    height: auto;      /* Optional: maintain aspect ratio */
+    z-index: 10;       /* Optional: ensures the image appears above other content */
 }
 
 /* ul li:first-child {
