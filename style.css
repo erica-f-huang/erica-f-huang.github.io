@@ -7,6 +7,8 @@ body {
 h1 {
   font-size: 35px
 }
+/* ================================== */
+
 
 /* format for nav bar */
 nav ul {
@@ -29,6 +31,56 @@ nav ul li a {
 nav ul li a:hover {
   background-color: #646cf8;
 }
+/* ================================== */
+
+
+/* control of two columsn of webpage */
+
+.columns {
+    display: flex; /* Makes the child elements sit side by side */
+    height: 100vh; /* Makes the container take up the full height of the viewport */
+}
+
+.left-section {
+  flex: 3;
+  background-color: #f0f0f0;
+}
+
+.right-section {
+  flex: 1;
+  background-color: #e0e0e0;
+  /* margin: auto; */
+  /* justify-content: center; */
+}
+
+.right-section img {
+  width: 20vw;
+  height: auto;
+  
+  display: block;
+  margin: auto;
+  padding-top: 20px
+  /* justify-content: center; */
+}
+/* ================================== */
+
+
+/* headshot */
+.headshot {
+    width: 20vw;
+    height: auto;
+    /* justify-content: center; */
+    /*position: absolute; /* Positions the element out of the normal flow */
+    /*top: 100px;            /* Aligns the top edge with the top of the container */
+    /*right: 0;          /* Aligns the right edge with the right of the container */
+    /*margin: 20px;      /* Optional: adds some space from the very corner */
+    /*width: 100px;      /* Optional: set desired width */
+    /*height: auto;      /* Optional: maintain aspect ratio */
+    /*z-index: 10;       /* Optional: ensures the image appears above other content */
+} 
+/* ================================== */
+
+
 
 /* social media icons */
 ion-icon {
@@ -46,19 +98,8 @@ footer ul {
   width: 100%;
   gap: 20px;
 }
+/* ================================== */
 
-/* headshot */
-.headshot {
-    width: 20px;
-    height: auto;
-    position: absolute; /* Positions the element out of the normal flow */
-    top: 100px;            /* Aligns the top edge with the top of the container */
-    right: 0;          /* Aligns the right edge with the right of the container */
-    margin: 20px;      /* Optional: adds some space from the very corner */
-    width: 100px;      /* Optional: set desired width */
-    height: auto;      /* Optional: maintain aspect ratio */
-    z-index: 10;       /* Optional: ensures the image appears above other content */
-}
 
 /* ul li:first-child {
   margin-left: auto;  forces items to the right 
