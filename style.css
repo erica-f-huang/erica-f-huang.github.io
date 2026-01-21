@@ -120,13 +120,27 @@ footer ul li a:hover {
 }
 
 
-/* ul li:first-child {
-  margin-left: auto;  forces items to the right 
-} */
+/* PROJECTS */
+/* collapsibles */
 
-/* flex container contains nav bar links (each is a flex item) */
-/* .flex-container {
-  display: flex;
-  justify-content: flex-end; 
-} 
-*/
+details {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+summary {
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px;
+    outline: none;
+    /* Optional: removes the outline when focused */
+}
+
+/* Optional: change the background when the details section is open */
+details[open] {
+    background-color: #f9f9f9;
+}
+
+/* ================================== */
