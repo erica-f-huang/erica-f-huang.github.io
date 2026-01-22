@@ -1,0 +1,39 @@
+/* control of two columns of webpage */
+
+.columns {
+    display: flex;
+    /* Makes the child elements sit side by side */
+    height: 100vh;
+    /* Makes the container take up the full height of the viewport */
+}
+
+.columns .left-section {
+    flex: 3;
+    background-color: #ffffff;
+}
+
+.columns .right-section {
+    flex: 1;
+    background-color: #ffffff;
+}
+
+.columns .right-section img {
+    width: 20vw;
+    height: auto;
+
+    display: block;
+    margin: auto;
+    padding-top: 20px
+        /* justify-content: center; */
+}
+
+/* ================================== */
+
+
+/* headshot */
+.headshot {
+    width: 20vw;
+    height: auto;
+}
+
+/* ================================== */

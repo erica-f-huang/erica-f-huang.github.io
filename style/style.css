@@ -1,0 +1,63 @@
+/* font format */
+body {
+    font-family: "Gill Sans", Helvetica, Arial, sans-serif;
+    font-size: 23px;
+}
+
+h1 {
+    font-size: 35px
+}
+
+h2 {
+    font-size: 30px
+}
+
+/* ================================== */
+
+
+/* format for nav bar */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #cab5ff;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+nav ul li a {
+    display: block;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #bda4fd
+}
+
+/* ================================== */
+
+/* social media icons */
+ion-icon {
+    font-size: 64px;
+    color: black;
+}
+
+footer ul {
+    /* Pushes the footer to the bottom, below all other content */
+    margin-top: auto;
+
+    /* Optional: Add some padding and background for visibility */
+    padding: 3px;
+    background-color: #cab5ff;
+    width: 100%;
+    gap: 20px;
+}
+
+footer ul li a:hover {
+    background-color: #bda4fd;
+}
+
+/* ================================== */
