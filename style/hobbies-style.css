@@ -1,0 +1,26 @@
+.section {
+    display: flex;
+    /* Makes the child elements sit side by side */
+    height: 30vh;
+    /* Makes the container take up the full height of the viewport */
+}
+
+.section .description {
+    flex: 3;
+    background-color: #ffffff;
+}
+
+.section .image-sect {
+    flex: 1;
+    background-color: #ffffff;
+}
+
+.section .image-sect img {
+    width: auto;
+    height: 100%;
+
+    display: block;
+    margin: auto;
+    padding-top: 20px
+        /* justify-content: center; */
+}
