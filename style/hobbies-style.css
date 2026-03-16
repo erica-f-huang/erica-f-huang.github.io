@@ -1,11 +1,12 @@
-.section {
+/*.section {
     display: flex;
     /* Makes the child elements sit side by side */
-    height: 40vh;
-    /* Makes the container take up the full height of the viewport */
-}
+/* height: 35vh;
+padding-bottom: 50px; */
+/* Makes the container take up the full height of the viewport */
+/*}*/
 
-.section .description {
+/* .section .description {
     flex: 3;
     background-color: #ffffff;
 }
@@ -21,6 +22,39 @@
 
     display: block;
     margin: auto;
-    padding-top: 20px
-        /* justify-content: center; */
+    padding-top: 20px;
+} */
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20vw, 1fr));
+    /* Responsive columns */
+    gap: 16px;
+    /* Spacing between grid items */
+    padding: 16px;
+}
+
+figure {
+    margin: 0;
+    /* Remove default margin */
+    border: 1px solid #0d2651;
+    padding: 8px;
+    text-align: center;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+    display: block;
+    /* Prevents unwanted whitespace issues */
+}
+
+figcaption {
+    margin-top: 8px;
+    font-size: 0.9em;
+    /* color: #333; */
+}
+
+p {
+    font-size: 27px
 }

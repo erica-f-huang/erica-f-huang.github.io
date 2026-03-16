@@ -1,15 +1,21 @@
 /* font format */
 body {
-    font-family: "Gill Sans", Helvetica, Arial, sans-serif;
+    font-family: monospace;
     font-size: 23px;
+    color: white;
+    background-color: #050e1d;
+}
+
+p {
+    font-size: 30px
 }
 
 h1 {
-    font-size: 35px
+    font-size: 45px
 }
 
 h2 {
-    font-size: 30px
+    font-size: 40px
 }
 
 /* ================================== */
@@ -20,7 +26,8 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #cab5ff;
+    background-color: #0d2651;
+    /*#cab5ff;*/
     display: flex;
     justify-content: center;
     width: 100%;
@@ -28,13 +35,14 @@ nav ul {
 
 nav ul li a {
     display: block;
-    color: black;
+    color: rgb(255, 255, 255);
     padding: 14px 16px;
     text-decoration: none;
 }
 
 nav ul li a:hover {
-    background-color: #bda4fd
+    background-color: #0a1b3a;
+    /*#bda4fd*/
 }
 
 /* ================================== */
@@ -51,13 +59,13 @@ footer ul {
 
     /* Optional: Add some padding and background for visibility */
     padding: 3px;
-    background-color: #cab5ff;
+    background-color: #0d2651;
     width: 100%;
     gap: 20px;
 }
 
 footer ul li a:hover {
-    background-color: #bda4fd;
+    background-color: #0a1b3a;
 }
 
 /* ================================== */
