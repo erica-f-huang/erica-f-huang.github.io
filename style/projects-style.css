@@ -1,24 +1,73 @@
-/* PROJECTS */
-/* collapsibles */
-
-details {
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    padding: 10px;
-    margin-bottom: 10px;
+.projects-container {
+    max-width: 100%;
+    margin: auto;
+    padding: 20px;
 }
 
-summary {
-    font-weight: bold;
+/* Project card */
+
+.project-card {
+    border: 2px solid #12223e;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: #0d2651;
+    overflow: hidden;
+    transition: border 0.2s ease;
+}
+
+.project-card:hover {
+    border: 4px solid #2a4f8a;
+}
+
+/* Remove default triangle */
+.project-card summary {
+    list-style: none;
+}
+
+.project-card summary::-webkit-details-marker {
+    display: none;
+}
+
+/* Summary layout */
+
+.project-summary {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
     cursor: pointer;
-    padding: 5px;
-    outline: none;
-    /* Optional: removes the outline when focused */
 }
 
-/* change the background when the details section is open */
-details[open] {
-    background-color: #f9f9f9;
+/* Image */
+
+.project-image {
+    width: 20%;
+    min-width: 120px;
+    border-radius: 6px;
+    object-fit: cover;
 }
 
-/* ================================== */
+/* Title area */
+
+.project-title h3 {
+    margin: 0;
+}
+
+.project-title p {
+    margin: 5px 0 0 0;
+    opacity: 0.8;
+}
+
+/* Expanded content */
+
+.project-content {
+    padding: 20px;
+    border-top: 1px solid #12223e;
+}
+
+.content-image {
+    width: 100%;
+    max-width: 500px;
+    margin-top: 10px;
+    border-radius: 6px;
+}

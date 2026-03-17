@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
-<!-- metadata -->
+
+<!-- ================METADATA==================  -->
 
 <head>
     <title> Erica Huang's Portfolio - Homepage</title>
@@ -8,39 +9,54 @@
     <link rel="stylesheet" href="style/index-style.css">
 </head>
 
+<!-- ================NAV BAR==================  -->
 <header>
-    <!-- nav bar -->
-    <nav>
-        <ul>
-            <li><a href="index.html">home</a></li>
-            <li><a href="projects.html">projects</a></li>
-            <!-- <li><a href="experience.html">experience</a></li> -->
-            <li><a href="cv.html">cv</a></li>
-            <li><a href="hobbies.html">hobbies</a></li>
-        </ul>
+    <nav class="nav-bar">
+        <div class="left-nav">
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="projects.html">projects</a></li>
+                <!-- <li><a href="experience.html">experience</a></li> -->
+                <li><a href="cv.html">cv</a></li>
+                <li><a href="hobbies.html">hobbies</a></li>
+            </ul>
+        </div>
+        <div class="right-nav">
+            <ul>
+                <li>
+                    <a href="https://github.com/erica-f-huang">
+                        <ion-icon name="logo-github" aria-label="GitHub"></ion-icon>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.linkedin.com/in/erica-huang-500743263/">
+                        <ion-icon name="logo-linkedin" aria-label="LinkedIn"></ion-icon>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="mailto:erica.f.huang@gmail.com">
+                        <ion-icon name="mail-outline" aria-label="Email"></ion-icon>
+                    </a>
+                </li>
+            </ul>
+        </div>
     </nav>
 
 </header>
 
-<!-- container for visible stuff on page -->
 
 <body>
 
-    <!-- ================ABOUT AND HEADSHOT==================  -->
+    <!-- ================TITLE AND HEADSHOT==================  -->
     <div class="columns">
         <div class="left-section">
             <!-- Content for the left side -->
-            <h1> Erica Huang
-                <br>
-                CS + Embedded Systems | Tufts University '27
-            </h1>
-            <h2></h2>
-            <h2>About Me</h2>
-            <p>My name is Erica Huang, and I'm a junior at Tufts University. I am a Computer Science major and Embedded
-                Systems minor. I am passionate about all
-                things STEM, including robotics, artificial intelligence, human-robot interaction, systems design, and
-                the ethical applications of technology. For more information, <a href="cv.html">see my resume HERE</a>
-            </p>
+            <div class="title">
+                <h1> Erica Huang </h1>
+                <h2>CS + Embedded Systems <br> Tufts University '27</h2>
+            </div>
 
             <!-- <p>When I'm not programming or creating, you can find me on the basketball court, reading in my hammock, on
                 the slopes snowboarding, or (not so) casually racing my dad in our daily <a
@@ -56,49 +72,70 @@
         </div>
     </div>
 
+    <!-- ================ABOUT==================  -->
+
+    <div class="about">
+        <h2 style="text-align: center;">About Me</h2>
+        <p>I'm Erica Huang, a junior at Tufts University majoring in Computer
+            Science
+            and minoring in
+            Embedded Systems. I am passionate about all
+            things STEM, including robotics, artificial intelligence, human-robot interaction, systems design, and
+            the ethical applications of technology. For more information, <a href="cv.html">see my CV HERE</a>
+        </p>
+    </div>
+
     <!-- ================CV AT A GLANCE==================  -->
 
     <h2 style="text-align: center;">CV at a glance</h2>
     <div class="cv-grid-container">
         <div class="cv-grid-item">
-            <p><b>MuLIP Lab @ Tufts</b><br>
+            <p><b>MuLIP Lab @ Tufts</b><br><br>
                 Learning about ROS and algorithmic policies to contribute to developing policies to train robots to
                 assist humans in open-world environments</p>
         </div>
         <div class="cv-grid-item">
-            <p><b>HRI Lab @ Tufts</b><br>Running and measuring experiments to understand how teams work with the goal of
+            <p><b>HRI Lab @ Tufts</b><br><br>
+                Running and measuring experiments to understand how teams work with the
+                goal of
                 creating an LLM to assist teamwork; expected to be featured in the resulting research paper</p>
         </div>
         <div class="cv-grid-item">
-            <p><b>Outreach Learning Fellows @ Tufts</b><br>Providing engineering experiences to 5th grade students from
+            <p><b>Outreach Learning Fellows @ Tufts</b><br><br>
+                Providing engineering experiences to 5th grade students
+                from
                 diverse backgrounds who might otherwise
                 lack access to hands-on engineering</p>
         </div>
         <div class="cv-grid-item">
-            <p><b>Cytel Inc.</b><br>Two time summer software engineer. Worked on optimizing simulations run in R via
+            <p><b>Cytel Inc.</b><br><br>
+                Two time summer software engineer. Worked on optimizing simulations run in R via
                 parallelizing C++, briding C++ and R, and reading to/ writing from Redis. Also worked on dynamic report
                 generation</p>
         </div>
         <div class="cv-grid-item">
-            <p><b>FIRST LEGO League (FLL)</b><br>Started two FLL teams for my town's public middle school with the goal
-                of fostering young student's passion for STEM and providing them with hands-on opportunities. Able to
-                accomodate all interested students for free through grant applications and fundraising</p>
+            <p><b>FIRST LEGO League (FLL)</b><br><br>
+                Started two FLL teams for my town's public middle school with the
+                goal
+                of fostering young student's passion for STEM. Accepted all interested students for free through grant
+                applications and fundraising.</p>
         </div>
         <div class="cv-grid-item">
-            <p><b>FIRST Robotics Competition (FRC)</b><br>One of the founding members and the coding lead for 2 years,
-                contributing to an award-wrinning robot. Establish and served in the Director of Community Education and
-                Outreach role. In this role I expanded and diversified the team, created workshops for elementary school
-                students, and collaborated with local Girl Scout Troops to develop and run badge events </p>
+            <p><b>FIRST Robotics Competition (FRC)</b><br><br>
+                One of the founding members, served as the coding lead for
+                2
+                years, and
+                created and served as the Director of Community Education and Outreach for 2 years
+            </p>
         </div>
-        <!-- Add more sentences as needed -->
     </div>
 
-    <!-- ================CV AT A GLANCE==================  -->
+    <!-- ================COURSES==================  -->
 
-    <h2 style="text-align: center;">Classes taken at Tufts University</h2>
-    <div class="classes">
-        <div class="comp-sci">
-            <h3 style="text-align: center;">Computer Science related</h3>
+    <h2 style="text-align: center;">Courses taken at Tufts University</h2>
+    <div class="courses-grid-container">
+        <div class="courses-grid-item">
+            <p style="text-align: center;"><b>Computer Science related</b></p>
             <ul>
                 <li>Data Structures</li>
                 <li>Algorithms</li>
@@ -112,8 +149,8 @@
                 <li>Intro to Security</li>
             </ul>
         </div>
-        <div class="emb-sys">
-            <h3 style="text-align: center;">Embedded Systems related</h3>
+        <div class="courses-grid-item">
+            <p style="text-align: center;"><b>Embedded Systems related</b></p>
             <ul>
                 <li>Embedded Systems</li>
                 <li>Intro to Digital Logic</li>
@@ -121,8 +158,8 @@
             </ul>
 
         </div>
-        <div class="other">
-            <h3 style="text-align: center;">Other</h3>
+        <div class="courses-grid-item">
+            <p style="text-align: center;"><b>Other</b></p>
             <ul>
                 <li>Calculus II and III</li>
                 <li>Linear Algebra</li>
@@ -136,38 +173,12 @@
     </div>
 </body>
 
-<!-- ================SOCIAL LINKS==================  -->
-<footer>
-    <nav>
-        <ul class="navbar">
-            <li>
-                <a href="https://github.com/erica-f-huang">
-                    <ion-icon name="logo-github" aria-label="GitHub"></ion-icon>
-                </a>
-            </li>
-
-            <li>
-                <a href="https://www.linkedin.com/in/erica-huang-500743263/">
-                    <ion-icon name="logo-linkedin" aria-label="LinkedIn"></ion-icon>
-                </a>
-            </li>
-
-            <li>
-                <a href="mailto:erica.f.huang@gmail.com">
-                    <ion-icon name="mail-outline" aria-label="Email"></ion-icon>
-                </a>
-            </li>
-        </ul>
-    </nav>
-
-    <!-- enabling IONICON for social icon links -->
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-</footer>
 
 
 
-
+<!-- enabling IONICON for social icon links -->
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
 
 </html>

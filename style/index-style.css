@@ -1,9 +1,32 @@
 /* control of two columns of webpage */
 
-/* ================ABOUT + HEADSHOT================== */
+/* ================ABOUT================== */
+.about {
+    display: block;
+    padding: 30px;
+}
+
+.about p {
+    background-color: #0d2651;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+/* ================TITLE + HEADSHOT================== */
+
+.title h1 {
+    font-size: 100px;
+    padding-left: 20px;
+}
+
+.title h2 {
+    font-size: 80px;
+    padding-left: 20px;
+}
+
 .columns {
     display: flex;
-    height: 65vh;
+    height: 55vh;
     /*edit to make classes closer or farther away*/
 }
 
@@ -16,13 +39,14 @@
 }
 
 .columns .right-section img {
-    width: 20vw;
+    width: 25vw;
     height: auto;
 
     display: block;
     margin: auto;
-    padding-top: 20px
-        /* justify-content: center; */
+    padding-top: 20px;
+    padding-right: 30px;
+    /* justify-content: center; */
 }
 
 /* headshot */
@@ -41,12 +65,12 @@
 .cv-grid-container {
     display: grid;
     /* This line creates as many columns as will fit, with a minimum width of 250px and a maximum of 1 fractional unit (equal share of remaining space) */
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
     gap: 20px;
     /* Adds space between grid items */
-    padding: 20px;
+    padding: 30px;
     padding-bottom: 50px;
-    max-width: 1200px;
+    max-width: 2000px;
     /* Optional: sets a maximum width for the entire grid */
     margin: 0 auto;
     /* Optional: centers the grid on the page */
@@ -64,31 +88,46 @@
 .cv-grid-item p {
     margin: 0;
     /* Removes default paragraph margin */
-    font-size: 1em;
+    /* font-size: 1em; */
     /* Ensures text remains readable */
 }
 
 /* ================COURSES AT TUFTS================== */
 
-.classes {
-    display: flex;
-    height: 55vh;
-    /* Makes the container take up the full height of the viewport */
+.courses-grid-container>* {
+    box-sizing: border-box;
+    /* Ensures padding and borders are included in element's total width/height */
 }
 
-.classes .comp-sci {
-    flex: 1;
-    background-color: #ffffff;
+.courses-grid-container {
+    display: grid;
+    /* This line creates as many columns as will fit, with a minimum width of 250px and a maximum of 1 fractional unit (equal share of remaining space) */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    /* Adds space between grid items */
+    padding: 30px;
+    padding-bottom: 50px;
+    max-width: 2000px;
+    /* Optional: sets a maximum width for the entire grid */
+    margin: 0 auto;
+    /* Optional: centers the grid on the page */
 }
 
-.classes .emb-sys {
-    flex: 1;
-    background-color: #ffffff;
+.courses-grid-item {
+    background-color: #0d2651;
+    border: 1px solid #12223e;
+    padding: 15px;
+    border-radius: 5px;
+    /* curves the edges of the box */
+
+    /* Prevents content from overflowing if it's too long for the container */
+    overflow: auto;
 }
 
-.classes .other {
-    flex: 1;
-    background-color: #ffffff;
+.courses-grid-item li {
+    font-size: 30px
 }
+
+
 
 /* ================================== */

@@ -34,19 +34,22 @@ padding-bottom: 50px; */
     padding: 16px;
 }
 
+.gallery-grid img {
+    width: 100%;
+    height: 350px;
+    display: block;
+    object-fit: cover;
+}
+
 figure {
     margin: 0;
     /* Remove default margin */
     border: 1px solid #0d2651;
+    border-radius: 5px;
+    background-color: #0d2651;
+
     padding: 8px;
     text-align: center;
-}
-
-figure img {
-    width: 100%;
-    height: auto;
-    display: block;
-    /* Prevents unwanted whitespace issues */
 }
 
 figcaption {
