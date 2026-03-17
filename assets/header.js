@@ -1,0 +1,41 @@
+class Header extends HTMLElement {
+  connectedCallback() {
+    this.innerHTML = `
+        <header>
+            <nav class="nav-bar">
+                <div class="left-nav">
+                    <ul>
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="projects.html">projects</a></li>
+                        <li><a href="cv.html">cv</a></li>
+                        <li><a href="hobbies.html">hobbies</a></li>
+                    </ul>
+                </div>
+                <div class="right-nav">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/erica-f-huang">
+                                <ion-icon name="logo-github" aria-label="GitHub"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.linkedin.com/in/erica-huang-500743263/">
+                                <ion-icon name="logo-linkedin" aria-label="LinkedIn"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="mailto:erica.f.huang@gmail.com">
+                                <ion-icon name="mail-outline" aria-label="Email"></ion-icon>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+        </header>
+    `;
+  }
+}
+customElements.define('header-component', Header);

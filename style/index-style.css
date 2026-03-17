@@ -36,22 +36,27 @@
 
 .columns .right-section {
     flex: 1;
+
+    padding-top: 20px;
+    padding-right: 30px;
 }
 
 .columns .right-section img {
-    width: 25vw;
+    width: 100%;
     height: auto;
 
     display: block;
     margin: auto;
-    padding-top: 20px;
-    padding-right: 30px;
+    /* padding-top: 20px;
+    padding-right: 30px; */
+    border-radius: 5px;
+
     /* justify-content: center; */
 }
 
 /* headshot */
 .headshot {
-    width: 20vw;
+    width: 100%;
     height: auto;
 }
 
