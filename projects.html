@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/projects-style.css">
     <script src="assets/header.js" type="text/javascript" defer></script>
+    <link rel="icon" href="images/favicon.png" type="image/png" style="border-radius: 10px;">
 </head>
 
 <!-- ================NAV BAR==================  -->
@@ -15,35 +16,94 @@
 <!-- ================PROJECTS==================  -->
 
 <body>
-    <h1 style="text-align: center;">Projects</h1>
-    <p style="text-align: center;"> All READMEs for these projects can be found
-        <a href="https://github.com/erica-f-huang/Tufts-course-coding-projects">HERE</a>
-        <br>
-        For the source code, please email me: <a href="mailto:erica.f.huang@gmail.com">erica.f.huang@gmail.com</a>
-    </p>
     <div class="projects-container">
+        <!-- ================TUFTS PROJECTS==================  -->
+        <h2 style="text-align: center;">Tufts University Course Projects</h2>
+        <p style="text-align: center;"> All READMEs for these projects can be found
+            <a href="https://github.com/erica-f-huang/Tufts-course-coding-projects">HERE</a>
+            <br>
+            For the source code, please email me: <a href="mailto:erica.f.huang@gmail.com">erica.f.huang@gmail.com</a>
+        </p>
 
+        <!-- ================GUITAR HERO==================  -->
         <details class="project-card">
             <summary class="project-summary">
-                <img src="project1.jpg" class="project-image" alt="Project image">
+                <img src="images/projects/guitar-hero-thumbnail.png" class="project-image" alt="Project image">
 
                 <div class="project-title">
-                    <h3>Mechanical Keyboard</h3>
-                    <p>Customized 65% layout using barebones kit, switches, and keycaps</p>
+                    <h3>Guitar Hero</h3>
+                    <p>Simple version of the video game <a href="https://en.wikipedia.org/wiki/Guitar_Hero">Guitar
+                            Hero</a> built using an FPGA, a VGA monitor, SD-Audio, and System Verilog
+                    </p>
                 </div>
             </summary>
 
             <div class="project-content">
                 <p>
-                    <b>SUMMARY</b>: My first mechanical keyboard build! I did months of research before buying the
-                    parts because
-                    there are so many different kinds of layouts, swithces, keycaps, and other specifications. I had
-                    some
-                    trouble testing the PCB, but ended up getting everything working in the end. Super fun build and
-                    hopefully not my last.
+                    Built with a group of 3 others. I led group meetings and the planning and implementation of game
+                    logic, memory, and graphics. The audio and controller mapping were also planned and implemented from
+                    scratch.
+                    <br><br><b>SKILLS</b>: building and testing circuits, writing graphics to a VGA, debugging hardware
+                    description languages, implementing game logic, memory mapping, bit manipulation, syncing audio and
+                    visuals to a clock, using a PLL, teamwork, leadership
+                    <br><br><b>PARTS</b>
+                    <br> &emsp; breadboard and common circuit components
+                    <br> &emsp; FPGA
+                    <br> &emsp; VGA and SD adapters
+                    <br> &emsp; VGA monitor
+                    <br> &emsp; amplifier
+                    <br> &emsp; external speaker
+                    <br> &emsp; original Guitar Hero controller that was modded to fit with a breadboard
+                </p>
+
+                <!-- <div class="image-row">
+                    <div class="media-item">
+                        <img src="images/projects/gh-diagram.png" alt="">
+                        <p class="caption">Step 1</p>
+                    </div>
+
+                    <div class="media-item">
+                        <img src="images/projects/gh-circuit.png" alt="">
+                        <p class="caption">Step 1</p>
+                    </div>
+
+                    <div class="media-item">
+                        <video controls width="600">
+                            <source src="images/projects/guitar-hero-final.mp4" type="video/mp4">
+
+
+                            Your browser does not support the video tag. Here is a
+                            <a href="images/projects/guitar-hero-final.mp4">link to the video</a> instead.
+                        </video>
+                        <p class="caption">Step 3</p>
+                    </div>
+                </div> !-->
+
+            </div>
+        </details>
+
+
+
+        <!-- ================PERSONAL PROJECTS==================  -->
+        <h2 style="text-align: center;">Personal Projects</h2>
+
+        <!-- ================MECHANICAL KEYBOARD==================  -->
+        <details class="project-card">
+            <summary class="project-summary">
+                <img src="images/projects/keyboard.png" class="project-image" alt="Project image">
+
+                <div class="project-title">
+                    <h3>Mechanical Keyboard</h3>
+                    <p>Customized 65% layouts</p>
+                </div>
+            </summary>
+
+            <div class="project-content">
+                <p>
+                    First mechanical keyboard build. Spent most of my time doing research to make sure the finished
+                    product hit all of my functional and aesthetic goals. Takeaway: When starting something new, no
+                    amount of research compare to hands-on learning
                     <br><br><b>SKILLS</b>: using/ testing PCB, troubleshooting, knowledge about mechanical keyboards
-                    <br><br><b>TAKEAWAYS</b>: No matter how much research you do, the only way to truly learn is by
-                    doing
                     <br><br><b>PARTS</b>:
                     <br> &emsp; Barebones kit: <a href="https://cannonkeys.com/products/bakeneko65">Bakenko65</a>
                     <br> &emsp; Switches: <a href="https://kineticlabs.com/switches/hmx/hmx-butter-switches"> HMX Butter
@@ -54,26 +114,6 @@
                 </p>
             </div>
         </details>
-
-
-        <details class="project-card">
-            <summary class="project-summary">
-                <img src="project2.jpg" class="project-image" alt="Project image">
-
-                <div class="project-title">
-                    <h3>Teamwork AI Assistant</h3>
-                    <p>LLM-powered system to support collaborative teams.</p>
-                </div>
-            </summary>
-
-            <div class="project-content">
-                <p>
-                    Designed and evaluated experiments studying team collaboration
-                    dynamics to train an LLM capable of supporting team decision-making.
-                </p>
-            </div>
-        </details>
-
     </div>
 </body>
 

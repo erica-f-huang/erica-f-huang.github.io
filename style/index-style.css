@@ -60,79 +60,11 @@
     height: auto;
 }
 
-/* ================CV AT A GLANCE================== */
-
-.cv-grid-container>* {
-    box-sizing: border-box;
-    /* Ensures padding and borders are included in element's total width/height */
-}
-
-.cv-grid-container {
-    display: grid;
-    /* This line creates as many columns as will fit, with a minimum width of 250px and a maximum of 1 fractional unit (equal share of remaining space) */
+/* ================CV AND COURSES GRIDS================= */
+#cv-grid-container {
     grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
-    gap: 20px;
-    /* Adds space between grid items */
-    padding: 30px;
-    padding-bottom: 50px;
-    max-width: 2000px;
-    /* Optional: sets a maximum width for the entire grid */
-    margin: 0 auto;
-    /* Optional: centers the grid on the page */
 }
 
-.cv-grid-item {
-    background-color: #0d2651;
-    border: 1px solid #12223e;
-    padding: 15px;
-    border-radius: 5px;
-    /* Prevents content from overflowing if it's too long for the container */
-    overflow: auto;
-}
-
-.cv-grid-item p {
-    margin: 0;
-    /* Removes default paragraph margin */
-    /* font-size: 1em; */
-    /* Ensures text remains readable */
-}
-
-/* ================COURSES AT TUFTS================== */
-
-.courses-grid-container>* {
-    box-sizing: border-box;
-    /* Ensures padding and borders are included in element's total width/height */
-}
-
-.courses-grid-container {
-    display: grid;
-    /* This line creates as many columns as will fit, with a minimum width of 250px and a maximum of 1 fractional unit (equal share of remaining space) */
+#courses-grid-container {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    /* Adds space between grid items */
-    padding: 30px;
-    padding-bottom: 50px;
-    max-width: 2000px;
-    /* Optional: sets a maximum width for the entire grid */
-    margin: 0 auto;
-    /* Optional: centers the grid on the page */
 }
-
-.courses-grid-item {
-    background-color: #0d2651;
-    border: 1px solid #12223e;
-    padding: 15px;
-    border-radius: 5px;
-    /* curves the edges of the box */
-
-    /* Prevents content from overflowing if it's too long for the container */
-    overflow: auto;
-}
-
-.courses-grid-item li {
-    font-size: 30px
-}
-
-
-
-/* ================================== */

@@ -1,4 +1,4 @@
-/* font format */
+/* ================FONT FORMATTING================== */
 body {
     font-family: monospace;
     font-size: 23px;
@@ -93,18 +93,44 @@ ion-icon {
     display: block;
 }
 
-/* footer ul {
-    Pushes the footer to the bottom, below all other content
-    margin-top: auto;
 
-    padding: 3px;
-    background-color: #0d2651;
-    width: 100%;
+
+/* ================GALLERY GRID FORMATTING================== */
+
+/* ">*" selects all direct child elements and applies styles to them */
+.grid-container>* {
+    box-sizing: border-box;
+    /* Ensures padding and borders are included in element's total width/height */
+}
+
+.grid-container {
+    display: grid;
+    /* This line creates as many columns as will fit, with a minimum width of 250px and a maximum of 1 fractional unit (equal share of remaining space) */
     gap: 20px;
-} */
+    /* Adds space between grid items */
+    padding: 30px;
+    padding-bottom: 50px;
+    max-width: 2000px;
+    /* Optional: sets a maximum width for the entire grid */
+    margin: 0 auto;
+    /* Optional: centers the grid on the page */
+}
 
-/* footer ul li a:hover {
-    background-color: #0a1b3a;
-} */
+.grid-item {
+    background-color: #0d2651;
+    border: 1px solid #12223e;
+    padding: 15px;
+    border-radius: 5px;
+    /* Prevents content from overflowing if it's too long for the container */
+    overflow: auto;
+}
 
-/* ================================== */
+.grid-item p {
+    margin: 0;
+}
+
+.grid-item li {
+    font-size: 30px
+}
+
+/* more specifications in "hobbies" */

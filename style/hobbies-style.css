@@ -1,40 +1,8 @@
-/*.section {
-    display: flex;
-    /* Makes the child elements sit side by side */
-/* height: 35vh;
-padding-bottom: 50px; */
-/* Makes the container take up the full height of the viewport */
-/*}*/
-
-/* .section .description {
-    flex: 3;
-    background-color: #ffffff;
-}
-
-.section .image-sect {
-    flex: 1;
-    background-color: #ffffff;
-}
-
-.section .image-sect img {
-    width: auto;
-    height: 100%;
-
-    display: block;
-    margin: auto;
-    padding-top: 20px;
-} */
-
-.gallery-grid {
-    display: grid;
+#hobbies-grid-container {
     grid-template-columns: repeat(auto-fit, minmax(20vw, 1fr));
-    /* Responsive columns */
-    gap: 16px;
-    /* Spacing between grid items */
-    padding: 16px;
 }
 
-.gallery-grid img {
+.grid-container img {
     width: 100%;
     height: 350px;
     display: block;
@@ -54,10 +22,4 @@ figure {
 
 figcaption {
     margin-top: 8px;
-    font-size: 0.9em;
-    /* color: #333; */
-}
-
-p {
-    font-size: 27px
 }

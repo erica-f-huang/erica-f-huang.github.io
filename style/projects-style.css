@@ -42,9 +42,10 @@
 
 .project-image {
     width: 20%;
-    min-width: 120px;
-    border-radius: 6px;
+    aspect-ratio: 3 / 2;
+    /* w / h */
     object-fit: cover;
+    border-radius: 5px;
 }
 
 /* Title area */
@@ -70,4 +71,44 @@
     max-width: 500px;
     margin-top: 10px;
     border-radius: 6px;
+}
+
+
+/* ================PICTURES IN DETAIL================== */
+
+.image-row {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, 1fr);
+    /* 4 equal columns */
+    gap: 15px;
+    margin-top: 15px;
+}
+
+/* The "frame" */
+.media-item {
+    height: 100%;
+    width: 100%;
+    /* aspect-ratio: 1 / 1; */
+    /* forces square */
+    overflow: hidden;
+    /* crops overflow */
+    border-radius: 6px;
+}
+
+/* Apply SAME styling to both */
+.media-item img,
+.media-item video {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    /* THIS is the magic */
+    display: block;
+}
+
+/* Caption styling */
+.caption {
+    margin-top: 5px;
+    font-size: 0.9em;
+    opacity: 0.8;
 }
