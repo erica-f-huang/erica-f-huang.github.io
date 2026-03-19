@@ -18,7 +18,8 @@ h3 {
     font-size: 35px;
 }
 
-p {
+p,
+li {
     font-size: 30px
 }
 
