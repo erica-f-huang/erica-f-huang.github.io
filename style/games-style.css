@@ -1,0 +1,32 @@
+table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+}
+
+.start-button {
+    border: 4px solid #2a4f8a;
+    background-color: #0d2651;
+    border-radius: 7px;
+    box-shadow: none !important;
+    color: white;
+    cursor: pointer;
+
+    padding: 24px 48px;
+    /* makes it bigger */
+    font-size: 40px;
+    display: block;
+    margin: 20px auto;
+}
+
+.start-button:hover {
+    border: 4px solid #2a4f8a;
+    background-color: #2a4f8a;
+    border-radius: 7px;
+}

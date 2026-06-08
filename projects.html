@@ -58,28 +58,23 @@
                 </ul>
                 </p>
 
-                <!-- <div class="image-row">
+                <div class="image-row gh-media">
                     <div class="media-item">
-                        <img src="images/projects/gh-diagram.png" alt="">
-                        <p class="caption">Step 1</p>
+                        <img src="images/projects/gh-circuit.png" alt="Guitar Hero circuit" class="expandable">
+                        <p class="caption" style="text-align: center;">Hardware Circuit</p>
                     </div>
-
                     <div class="media-item">
-                        <img src="images/projects/gh-circuit.png" alt="">
-                        <p class="caption">Step 1</p>
+                        <img src="images/projects/gh-diagram.png" alt="Guitar Hero diagram" class="expandable">
+                        <p class="caption" style="text-align: center;">Block Diagram</p>
                     </div>
-
-                    <div class="media-item">
-                        <video controls width="600">
+                    <div class="media-item video-wrapper">
+                        <video class="expandable-video">
                             <source src="images/projects/guitar-hero-final.mp4" type="video/mp4">
-
-
-                            Your browser does not support the video tag. Here is a
-                            <a href="images/projects/guitar-hero-final.mp4">link to the video</a> instead.
                         </video>
-                        <p class="caption">Step 3</p>
+                        <div class="play-overlay">&#9654;</div>
+                        <p class="caption" style="text-align: center;">Watch a demo here!</p>
                     </div>
-                </div> !-->
+                </div>
 
             </div>
         </details>
@@ -124,11 +119,61 @@
             </div>
         </details>
     </div>
+
+    <!-- Lightbox modal -->
+    <div id="media-lightbox" class="lightbox-overlay">
+        <span class="lightbox-close">&times;</span>
+        <img id="lightbox-img" class="lightbox-content" src="" alt="Expanded view">
+        <video id="lightbox-video" class="lightbox-content" controls>
+            <source id="lightbox-video-src" src="" type="video/mp4">
+        </video>
+    </div>
 </body>
 
 <!-- enabling IONICON for social icon links -->
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
+<script>
+    const lightbox = document.getElementById('media-lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+    const lightboxVideo = document.getElementById('lightbox-video');
+    const lightboxVideoSrc = document.getElementById('lightbox-video-src');
+
+    document.querySelectorAll('.expandable').forEach(img => {
+        img.addEventListener('click', () => {
+            lightboxImg.src = img.src;
+            lightboxImg.style.display = 'block';
+            lightboxVideo.style.display = 'none';
+            lightbox.classList.add('active');
+        });
+    });
+
+    document.querySelectorAll('.expandable-video').forEach(video => {
+        video.addEventListener('click', () => {
+            lightboxVideoSrc.src = video.querySelector('source').src;
+            lightboxVideo.load();
+            lightboxVideo.play();
+            lightboxImg.style.display = 'none';
+            lightboxVideo.style.display = 'block';
+            lightbox.classList.add('active');
+        });
+    });
+
+    document.querySelector('.lightbox-close').addEventListener('click', closeLightbox);
+    lightbox.addEventListener('click', e => {
+        if (e.target === lightbox) closeLightbox();
+    });
+    document.addEventListener('keydown', e => {
+        if (e.key === 'Escape') closeLightbox();
+    });
+
+    function closeLightbox() {
+        lightbox.classList.remove('active');
+        lightboxVideo.pause();
+        lightboxImg.src = '';
+        lightboxVideoSrc.src = '';
+    }
+</script>
 
 </html>
