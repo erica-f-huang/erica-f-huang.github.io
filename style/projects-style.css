@@ -100,10 +100,11 @@
 .media-item img,
 .media-item video {
     width: 100%;
-    height: 250px;
+    height: 350px;
     object-fit: cover;
     /* THIS is the magic */
     display: block;
+    border-radius: 6px;
 }
 
 /* Caption styling */
@@ -113,8 +114,9 @@
     opacity: 0.8;
 }
 
-/* 3-column media row (Guitar Hero) */
-.gh-media {
+/* 3-column media row */
+.gh-media,
+.synth-media {
     grid-template-columns: repeat(3, 1fr);
 }
 
