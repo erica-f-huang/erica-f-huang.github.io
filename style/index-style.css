@@ -3,7 +3,7 @@
 /* ================ABOUT================== */
 .about {
     display: block;
-    padding: 30px;
+    padding: 15px 30px 30px;
 }
 
 .about p {
@@ -22,6 +22,7 @@
 .title h2 {
     font-size: 80px;
     padding-left: 20px;
+    margin-bottom: 0;
 }
 
 .columns {
